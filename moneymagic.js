@@ -11,7 +11,7 @@ var gotLucky; //bool
 var grandTotal;
 
 
-
+function main(){
 // assign winning numbers
 for (n = 0; n < 5; n++){
 	winners[n] = Math.floor(Math.random() * 48) + 1;
@@ -43,4 +43,4 @@ if(gotLucky) {document.writeln("Lucky Ball is a match!"};
 if(!gotLucky) {document.writeln("Lucky Ball does not match"};
 // What the payout would be for your pick
 document.writeln("Your winnings: $" + grandTotal);
-
+}
