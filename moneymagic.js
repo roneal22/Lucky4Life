@@ -40,7 +40,8 @@ document.writeln("Winning Numbers: " + winners + " lucky " + luckyBall);
 document.writeln("# of Matches: " + numMatches);
 // Whether the lucky ball matched
 if(gotLucky) {document.writeln("Lucky Ball is a match!")};
-if(!gotLucky) {document.writeln("Lucky Ball does not match"};
+if(!gotLucky) {document.writeln("Lucky Ball does not match")};
 // What the payout would be for your pick
 document.writeln("Your winnings: $" + grandTotal);
+return;
 }
